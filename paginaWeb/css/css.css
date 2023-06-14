@@ -1,0 +1,209 @@
+
+/*todo el documento*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tiro Bangla', serif;
+}
+p{
+    display: inline;
+}
+body{
+    background-color: #4174ec;
+}
+
+/*solo header*/
+header{
+    background-color: #0041d4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 180px;
+
+    /*position: fixed;                 
+    deja fija la parte del codigo  y le da todo el ancho
+    width: 100%;*/
+}
+.logo{
+    padding: 15px;
+}
+.logoimagen{
+    display: inline;
+}
+header img{
+    height: 150px;
+    border-radius: 50%;    
+}
+.logotexto{
+    display: inline;
+    padding-left: 30px;
+    vertical-align: 55PX;
+}
+header p{
+    color: #ffffff;
+    font-size: 30px;
+}
+.iconizquierda{
+    float: left;
+}
+
+.links{
+    display: inline;
+    padding-top: 80px;
+    float: right;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+header a:hover{
+    color:#bebebe;
+}
+
+/*cuerpo de index/noticia*/
+.sindex{
+    background-color: #4174ec;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+article{
+    background-color: rgb(107, 176, 255);
+    /*#0041d4*/
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 10px;
+    padding-top: 4px;
+    padding-left: 4px;
+    border-radius: 5px;
+}
+article:hover{
+    box-shadow: rgba(0, 0, 0, 0.384) 15px 15px 15px;
+}
+
+article img{
+    width: 20%;
+}
+.imagenes{
+    width: 20%;
+    display: inline;
+}
+
+.textodeimagenes{
+    width: 60%;
+    /*background-color: burlywood;*/
+    display: inline;
+    float: right;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+footer{
+    background-color: #0041d4;
+}
+.fotodo{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 98%;
+    height: 30px;
+    /*background-color: aquamarine;*/
+}
+
+.fdentro{
+    /*background-color: #bebebe;*/
+    width: 35%;
+    display: inline;
+    color: #cecece;
+}
+.fderecha{
+    float:right;
+
+}
+
+/*info particular de las noticias*/
+.noticia{
+    width: 80%;
+    display: inline;
+    background-color: brown;
+    float: left;
+    /*height: auto;*/
+}
+/*.titulo1{
+    margin-left: auto;
+    margin-right: auto;
+}*/
+.titulonot{
+    background-color: red;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.pa1{
+    background-color: bisque;
+}
+.publicidad{
+    width: 19%;
+    background-color: cadetblue;
+    display: inline;
+    float: right;
+    height: 200px;
+}
+
+
+.trabajos{
+    padding-left: 50px;
+    color: #ffffff;
+}
+
+
+
+.poesiafuera{
+    background-color: #4174ec;
+    width: 100%;
+    height: 100px;
+}
+.poesiadentro{
+    background-color: #cecece;
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.textostitulo{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.fila{
+    background-color: #4174ec; 
+    width: 100%;
+    height: 500px;   
+}
+
+.columna{
+    background-color: rgb(214, 150, 150);
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+}
+.imgcuentos{
+    width: 96%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+/* Links:
+    https://www.iloveimg.com/es/recortar-imagen
+    Carta a una señorita en paris:https://bibliotecas.unileon.es/tULEctura/files/2014/03/Carta-a-una-se%C3%B1orita-en-Par%C3%ADs.pdf
+    Cefalea: https://dramaticas.una.edu.ar/assets/files/file/artes-dramaticas/2014/2014-ad-una-cpu-2015-texto-cefalea-cortazar.pdf
+    bootstrap para iconos*/
+    

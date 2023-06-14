@@ -1,0 +1,87 @@
+.doscolumnas{
+    width: 49%;
+    float: left;
+    margin: 2px;
+}
+.imagencolumnas{
+    width: 100%;
+}
+
+.trescolumnas{
+    width: 32%;
+    float: left;
+    background-color: aquamarine;
+    margin: 6px;
+}
+.fila{
+    clear: both;
+}
+.cuatrocolumnas{
+    background-color: rgb(166, 142, 233);
+    width: 24%;
+    float: left;
+    margin: 4px;
+}
+
+.cincocolumnas{
+    background-color: rgb(255, 201, 114);
+    width: 19%;
+    float: left;
+    margin: 4.5px;
+}
+
+i{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*botones*/
+.todos{
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin: 30px;
+
+}
+.uno{
+    background-color: rgb(0, 255, 47);
+}
+.dos{
+    color: aliceblue;
+    background-color: black;    
+}
+.dos:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.tres{
+    background-color: brown;
+}
+.tres:hover{
+    margin-top: 150px;
+}
+.cuatro{
+    background-color: coral;
+}
+.cinco{
+    background-color: darkgoldenrod;
+}
+
+
+
+/*.cinco:hover{
+    animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeY{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}20%,40%,60%,80%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}}@keyframes
+}*/
+
+
+.animate__shakeX:hover{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeY{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}20%,40%,60%,80%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}}@keyframes
+
+/*.animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeY{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}20%,40%,60%,80%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}}@keyframes
+*/
